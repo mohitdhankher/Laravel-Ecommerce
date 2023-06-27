@@ -52,9 +52,7 @@ Route::group(['prefix'=>'admin'], function(){
         Route::get('/products', [ProductController::class, 'index'])->name('products.index');
         Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
         Route::post('/products', [ProductController::class, 'store'])->name('products.store');
-        // Route::get('/categories/{category}/edit', [CatergoryController::class, 'edit'])->name('categories.edit');
-        // Route::delete('/categories/{category}', [CatergoryController::class, 'destroy'])->name('categories.delete');
-
+        
         Route::get('/getSlug', function (Request $request){
             $slug='';
             // Console.log('++++++',$request);
