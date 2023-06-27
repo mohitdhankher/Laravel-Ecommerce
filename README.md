@@ -7,9 +7,13 @@ Project Contains Frontend Folder & admin Folder in View
 Frontend folder have two files 
 Home file for Home Page & cart file for Cart product details (right now data is coming from Product Table & Category table for these files)
 
-Routes are in routes folder inside web.php file
 Admin Folder
 Contains two folder Category & Product for their respective Database table.
+
+
+
+Routes are in routes folder inside web.php file
+
 
 Controller are inside Http module
 
